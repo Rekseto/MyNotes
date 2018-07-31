@@ -1,0 +1,86 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+
+}
+* {
+ margin: 0;
+ padding: 0;
+}
+
+p {
+  color: #444;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+ul {
+  margin-left: 40px;
+}
+
+.navigation {
+  display:flex;
+  justify-content: center;
+  padding-top: 40px;
+  min-height: 10vh;
+}
+.navigation__list {
+  list-style-type: none;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 10vh;
+  min-width: 10vw;
+  margin:0;
+}
+.navigation__element {
+  width: 100%;
+  margin: 5px;
+}
+.navigation__link {
+  color: black;
+  display:block;
+  width:100%;
+  text-align: center;
+  padding: 5px;
+}
+
+.main {
+  margin: 40px auto;
+  padding: 0 10px;
+  max-width: 80%;
+  font: 18px/1.5 -apple-system,BlinkMacSystemFont,"avenir next",avenir,"Segoe UI","lucida grande","helvetica neue",helvetica,"Fira Sans",roboto,noto,"Droid Sans",cantarell,oxygen,ubuntu,"franklin gothic medium","century gothic","Liberation Sans",sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #444;
+}
+
+.notes {
+  font-size: 2.4em;
+  margin-left: 15px;
+}
+
+#headings {
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  margin-left: 15px;
+  font-size: 1.1em;
+}
+article,section {
+  margin-top: 40px;
+}
+
+i {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.conclusion {
+  font-size: 1.8em;
+  display: block;
+  text-align: center;
+}
