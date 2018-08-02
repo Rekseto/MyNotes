@@ -16,7 +16,7 @@
   <![endif]-->
   <nav class="navigation">
     <ul class="navigation__list">
-        <% for(var i=0; i<notes.length; i++) { %>
+        <% for(let i=0; i<notes.length; i++) { %>
             <li class="navigation__element">
                 <a  class="navigation__link" href='<%= category %>/<%= notes[i] %>'>
                     <%= notes[i].replace('-', ' ') %>
